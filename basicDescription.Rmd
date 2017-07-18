@@ -14,3 +14,13 @@ Let's edit.
 changes check 
 
 add some development ????
+
+```{r PaigesChunk}
+library(stringr)
+
+x <- c("This ", "is ", "for ", "practice.")
+
+paste0(str_c(x), collapse="")
+
+```
+
